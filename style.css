@@ -1,0 +1,80 @@
+@charset "UTF-8";
+.navbar-links {
+  display: flex;
+  gap: 31px;
+  align-items: center; }
+  .navbar-links a {
+    color: #fff;
+    /* Меню */
+    font-family: Noto Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.36px;
+    text-transform: uppercase;
+    text-decoration: none; }
+  @media screen and (max-width: 1000px) {
+    .navbar-links a:not(:nth-child(7)) {
+      display: none; } }
+
+.menu {
+  background-image: url("./img/1 2.png");
+  background-size: cover;
+  padding: 160px 0; }
+  .menu h2,
+  .menu div h3 {
+    color: #fff; }
+  .menu .menu-texts {
+    gap: 30px; }
+
+.services-title {
+  margin-top: 70px; }
+
+.card-img {
+  padding: 30px 18px;
+  border-radius: 25px; }
+
+.online {
+  background: #f5f6f6;
+  margin-top: 100px;
+  padding: 0px 0 70px 0; }
+
+.shifton {
+  padding: 100px 0; }
+
+.footer {
+  background: #53a8dd;
+  padding: 55px 0 83px 0; }
+
+.burger-menu {
+  display: none; }
+  @media screen and (max-width: 1000px) {
+    .burger-menu {
+      display: block; } }
+
+.online-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 48px; }
+  @media screen and (max-width: 1015px) {
+    .online-cards {
+      flex-direction: column-reverse; }
+      .online-cards img {
+        width: 254px; } }
+
+.youtube {
+  width: 100px;
+  height: 562px; }
+
+@media screen and (max-width: 1015px) {
+  .logo {
+    width: 86px;
+    padding: 11px 0; }
+
+  .youtube {
+    width: auto;
+    height: auto; } }
+
+/*# sourceMappingURL=style.css.map */
